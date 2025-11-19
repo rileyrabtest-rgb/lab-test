@@ -1,0 +1,17 @@
+{
+  "name": "swag-labs-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playwright": "npx playwright test",
+    "playwright-debug": "npx playwright test --debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.6"
+  }
+}
